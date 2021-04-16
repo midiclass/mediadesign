@@ -1,0 +1,315 @@
+html,
+body {
+  background-image: url(../img/background_whole.jpg);
+font-family: 'sunflower', sans-serif;
+color: white;
+}
+
+
+a:hover{
+    color: yellow;
+}
+
+b{
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+strong {
+    background: yellow;
+      color: black;
+}
+
+
+
+.intropage {
+  width: 100vw;
+  height: 55vw;
+  background-image: url(../img/background.jpg);
+  background-size: 160%;
+  background-position: center;
+  font-family: 'Gugi', cursive;
+  font-weight:bold;
+  font-size: 50px;
+  line-height: 1.4em;
+  text-align: center;
+  padding-top: 15%;
+  color: white;
+}
+
+.nav {
+  position: fixed;
+  top: 0;
+  left: -28%;
+  width: 37%;
+  height: 100%;
+  background-color: transparent;
+  transition: all 0.5s;
+  transition-timing-function: ease-in-out;
+}
+
+.nav:hover {
+  left: 0px;
+}
+
+.board {
+  background-color: black;
+  opacity: 90%;
+  width: 70%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 120px 0;
+  box-sizing: border-box;
+}
+.taps {
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-start;
+}
+.tap {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 20px;
+}
+
+.taps :hover {
+  background-color: yellow;
+  color: #323232;
+}
+
+.sign {
+  position: fixed;
+  top: 30px;
+  left: 30px;
+  color: yellow;
+  opacity: 0.6;
+  border: none;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 11px 8px;
+}
+
+.container {
+  width: 70%;
+  height: 100%;
+  margin: 0 auto;
+  text-align: center;
+  word-break: keep-all;
+
+}
+
+
+.text{
+font-family: 'Gothic A1', sans-serif;
+width: 50%;
+margin: 0 auto;
+padding-top: 6%;
+padding-left: 5%;
+text-align: left;
+line-height: 2;
+
+}
+
+
+
+
+#con2{
+display: flex;
+width: 100%;
+flex-direction: row;
+justify-content: space-between;
+align-content:space-around;
+}
+
+.chart{
+    width: 100%;
+    padding-left: 5%;
+    margin-top: 5%;
+}
+
+{
+
+}
+
+#con3{
+
+}
+#con4{
+  
+}
+#con5{
+  
+}
+#con6{
+  
+}
+#con7{
+  
+}
+#con8{
+  
+}
+#con9{
+  
+}
+#con10{
+  
+}
+#con11{
+  
+}
+
+
+
+.container-bottom{
+    margin: 0 auto;
+    width: 100%;
+    height: 900px;
+    background-image: url(../img/background_bottom.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.conainer-bottom-inside{
+    margin: 0 auto;
+    width: 60%;
+}
+
+img {
+  margin-top: 4%;
+}
+
+.divider {
+  width: 100%;
+  height: 2px;
+  border: 0;
+  background-image: linear-gradient(90deg, black, silver, black);
+    background-blend-mode: darken;
+}
+
+h1 {
+  color: white;
+ font-family: 'gugi', cursive;
+  margin: 0 auto;
+  line-height: 1.8em;
+}
+
+h3 {
+  color: white;
+  line-height: 1.5;
+}
+
+h5 {
+  font-size: 50px;
+  line-height: 0;
+  margin: 400px 0px;
+  font-family: futura;
+}
+h6 {
+  font-size: 35px;
+  line-height: 0;
+  font-family: futura;
+  margin-top: 350px;
+  margin-bottom: 200px;
+}
+
+
+
+
+.page11p {
+  font-size: 16px;
+}
+
+
+
+
+.blank {
+  width: 100%;
+  height: 180px;
+}
+
+.source {
+  font-size: 15px;
+    text-decoration: none;
+  color: gray;
+}
+
+.credit {
+  font-family: 'gugi', cursive;
+  font-size: 10px;
+  line-height: 1.5em;
+  text-align: center;
+  margin-bottom: 3%;
+    text-shadow: 0 0 1vw black;
+}
+
+.explain{
+    text-align: left;
+    font-size: 13px;
+    
+}
+
+/*page10-11
+
+.chart1 {
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.chart1-1 {
+  width: 5%;
+}
+.chart1-2 {
+  width: 90%;
+}
+*/
+
+/*page7*/
+h1 {
+  margin: 0 auto;
+}
+
+.whole_box {
+  background: black;
+  margin: 0 auto;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+}
+.text_box {
+  width: 80%;
+  box-sizing: border-box;
+  padding: 3%;
+  border: #323232 1px solid;
+}
+.text_box p {
+  width: 100%;
+    color: silver;
+  font-size: 12px;
+  line-height: 1.7em;
+  text-align: left;
+}
+.text_box h2 {
+  margin: 0;
+  margin-bottom: 20px;
+  color: white;
+}
+
+
+::selection{
+    background: yellow;
+    color: black;
+}
+
+.highlight{
+    color: yellow;
+}
